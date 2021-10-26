@@ -1,0 +1,276 @@
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: 1.10em;
+	margin-bottom: 1.5em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+
+}
+
+#h1{
+    margin-top: 50px;
+   text-align: center; 
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .99em;
+	color:green;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #5F9EA0;
+	margin-bottom: 30px;
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+#h2{
+	margin-left:50px;
+
+}
+
+.h3{
+	margin-top: 70px;
+}
+
+#photo{
+	text-align: center;
+}
+
+#photoG{
+    text-align: center;
+}
+#volunteer{
+	margin-top: 40px;
+	margin-bottom:30px;
+}
+#logo{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+#experience{
+	margin-top: 50px;
+}
+
+#a{
+	color:blue;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 100%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+.name,
+.main-nav,
+.main-nav li {
+
+  display: inline;
+  }
+
+  .name {
+    margin-right: 50px;
+  }
+  .main-nav li {
+    margin-right: 12px;
+  }
+
+
+.col {
+display: inline-block;
+width: 50%;
+margin-right: -4px;
+vertical-align: top;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+.images {
+  width: 500px;
+  float: left;
+  margin-top: 4%;
+  margin-right: 8%;
+
+}
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+			height: 400px;
+      margin: auto;
+
+/*.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+			height: 500px;
+      margin: auto;*/
+  }
+
+/* ----layout for storyBoarding ----- */
+
+table{
+border: 1px solid black;
+border-collapse: collapse;
+
+margin-top:1em;
+
+}
+.center{
+    
+  margin-left:100px;  
+  
+}
+
+
+table.centro{
+      margin-left:100px;
+        margin-right:100px;  
+    }
+
+ th{
+border: 1px solid black;
+border-bottom: 2px solid black;
+padding: 2em  .5em  .5em;
+
+
+}
+
+ td{
+border: 1px solid black;
+padding: .5em;
+
+
+}
+
+.centrar{
+    
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+/* ---- END of layout for storyBoarding ----- */
+
+
+/* ---- start of layout for photos and thumbnails ----- */
+
+div.monument { margin-left: 0%;
+				border:double;
+				position:fixed;
+				top:10%;
+				left:25%;
+				}
+/* ---- start of layout for photos and thumbnails ----- */
+
+/*--Image Gallery---*/
+.gallery{
+    
+    margin-left:100px;
+        margin-right:0px;  
+    }
+.gallery >a >img {
+    
+    	/*margin: 0px 10px;*/
+	border: 2px #5F9EA0 solid;
+    margin-top: 10px;
+  margin-bottom: auto;
+	/*width: 160px;
+	height: 120px;*/
+}
+
+/*photos  layout in contact page*/
+.contact{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact >a>img {
+    
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+ margin-bottom: 50px;
+
+
+}
